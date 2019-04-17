@@ -1,0 +1,9 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" 
+                access="global" controller="AccountController20">
+  
+    <aura:attribute name="Account" type="Account[]"/>
+
+    <div class="slds-m-around_medium">
+        <lightning:button name="getaccounts" label="Get Accounts" onclick="{!c.getAccount}"/>
+    </div>
+</aura:component>
