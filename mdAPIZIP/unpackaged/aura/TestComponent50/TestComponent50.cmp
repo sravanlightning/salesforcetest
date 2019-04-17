@@ -2,7 +2,7 @@
                 controller="AccountController" access="global" >
       <aura:attribute name="account" type="object"/>
 	 <lightning:input type="text" name="input1" label="Enter a date" />
-    <lightning:button name="submit" label="submit" onclick="{!c.onSubmit}"/>
+    <lightning:button name="sbt" label="submit" onclick="{!c.onSubmit}"/>
    <div>
     {!v.account.Id}
     {!v.account.Name}
