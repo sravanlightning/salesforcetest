@@ -1,7 +1,7 @@
 <aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" 
                 controller="AccountController" access="global" >
       <aura:attribute name="account" type="object"/>
-	 <lightning:input type="text" name="input1" label="Enter a date" />
+	 <lightning:input type="text" name="input1" label="Enter a nice date" />
     <lightning:button name="sbt" label="submit" onclick="{!c.onSubmit}"/>
    <div>
     {!v.account.Id}
